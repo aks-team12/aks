@@ -41,6 +41,6 @@ spec:
           - name: MONGOUSER
             value: "orders-user"
           - name: MONGOPASSWORD
-            value: "orders_password"
+            value: "orders-password"
           ports:
           - containerPort: 8080
