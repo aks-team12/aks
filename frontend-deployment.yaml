@@ -32,7 +32,7 @@ spec:
               memory: "256Mi"
               cpu: "500m"
           env:
-          - name: captureorder-lb
+          - name: CAPTUREORDERSERVICEIP
             value: "51.140.178.38"
           ports:
           - containerPort: 8080
